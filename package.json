@@ -1,0 +1,19 @@
+{
+  "name": "wiki-upload",
+  "version": "1.0.0",
+  "description": "A Javascript wrapper around wikimedia's api to handle file uploads",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wiki",
+    "wikimedia",
+    "upload"
+  ],
+  "author": "Hassan Amin ( h.m.amin994@gmail.com )",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
