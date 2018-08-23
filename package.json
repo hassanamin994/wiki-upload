@@ -2,6 +2,7 @@
   "name": "wiki-upload",
   "version": "1.0.0",
   "description": "A Javascript wrapper around wikimedia's api to handle file uploads",
+  "homepage": "https://github.com/hassanamin994/wiki-upload",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
