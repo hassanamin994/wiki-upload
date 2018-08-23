@@ -23,7 +23,7 @@ This package is created to provide a simplified api for uploading content to any
         if (response && response.result == 'Success') {
             // Now we're logged in, let's upload a file
             let file = fs.createReadStream('random_image.jpg');
-            wikiUpload.uploadFileToMediawiki(file, { filename: 'Random image name', text: 'Image Description' })
+            wikiUpload.uploadFileToWiki(file, { filename: 'Random image name', text: 'Image Description' })
                 .then(res => {
                     // File is uploaded!
                 })
@@ -40,7 +40,7 @@ This package is created to provide a simplified api for uploading content to any
 
 ### Methods
 ##### loginToWiki (baseUrl, username, password, callback) 
-##### uploadFileToMediawiki (file, options, callback)
+##### uploadFileToWiki (file, options, callback)
 ######  file: the file to be uploaded ( preferably created by fs.createReadStream
 
 ### Authors  
